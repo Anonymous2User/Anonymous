@@ -1,11 +1,5 @@
 function [EigenvectorsDiscrete,R]=mydiscretisation(EigenVectors,flag,R)
-% 
-% EigenvectorsDiscrete=discretisation(EigenVectors)
-% 
-% Input: EigenVectors = continuous Ncut vector, size = ndata x nbEigenvectors 
-% Output EigenvectorsDiscrete = discrete Ncut vector, size = ndata x nbEigenvectors
-%
-% Timothee Cour, Stella Yu, Jianbo Shi, 2004
+
 
 [n,k]=size(EigenVectors);
 
